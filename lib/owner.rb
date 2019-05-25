@@ -44,6 +44,7 @@ class Owner
   end
   
   def sell_pets
+    pets.each do |
     if pets.empty?
     return pets.mood = "nervous"
   end
