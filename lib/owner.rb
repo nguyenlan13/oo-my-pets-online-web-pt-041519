@@ -1,11 +1,11 @@
 require "pry"
   
 class Owner
-  OWNERS = []
+  
   attr_accessor :name, :pets
   attr_reader :species
   
-
+OWNERS = []
 
   def self.all
     OWNERS
