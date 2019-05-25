@@ -19,7 +19,7 @@ OWNERS = []
   end
   
   def self.reset_all
-    OWNERS.clear  
+    OWNERS.clear
   end
   
   def say_species
