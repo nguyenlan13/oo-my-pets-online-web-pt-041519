@@ -45,7 +45,7 @@ class Owner
   
   def sell_pets
     pets.each do |species, object|
-    if pets.empty?
+    object.each do |object|
     return pets.mood = "nervous"
   end
 end
