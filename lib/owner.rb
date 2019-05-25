@@ -46,4 +46,5 @@ class Owner
   def sell_pets
     @pets.empty?
     pets.mood = "nervous"
+  end
 end
