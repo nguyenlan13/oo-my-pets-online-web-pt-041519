@@ -48,6 +48,7 @@ class Owner
     object.each do |object|
     object.mood = "nervous"
   end
+  end
 end
 
   def list_pets
