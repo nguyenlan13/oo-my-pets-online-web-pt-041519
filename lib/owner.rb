@@ -1,15 +1,12 @@
 require "pry"
   
 class Owner
+  OWNERS = []
   attr_accessor :name, :pets
   attr_reader :species
   
-OWNERS = []
-  def initialize(species)
-    @species = species
-    @pets = {fishes: [], cats: [], dogs: []}
-  end
-  
+
+
   def self.all
     OWNERS
   end
@@ -21,6 +18,12 @@ OWNERS = []
   def self.reset_all
     OWNERS.clear
   end
+  def initialize(species)
+    @species = species
+    @pets = {fishes: [], cats: [], dogs: []}
+  end
+  
+
   
   def say_species
     "I am a #{@species}."
