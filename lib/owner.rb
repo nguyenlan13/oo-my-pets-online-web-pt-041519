@@ -11,11 +11,11 @@ OWNERS = []
   end
   
   def self.all
-    OWNERS << self.owner
+    OWNERS
   end
   
   def self.count
-    OWNERS.count
+    OWNERS.size
   end
   
   def self.reset_all
