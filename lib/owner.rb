@@ -10,15 +10,15 @@ OWNERS = []
     @pets = {fishes: [], cats: [], dogs: []}
   end
   
-  def all
+  def self.all
     OWNERS
   end
   
-  def count
+  def self.count
     OWNERS.count
   end
   
-  def reset_all
+  def self.reset_all
     OWNERS.clear  
   end
   
