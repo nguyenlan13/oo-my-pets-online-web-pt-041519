@@ -44,7 +44,7 @@ class Owner
   end
   
   def sell_pets
-    pets.empty?
-    pets.mood = "nervous"
+    if pets.empty?
+    pets.moon = "nervous"
   end
 end
