@@ -11,7 +11,7 @@ OWNERS = []
   end
   
   def self.all
-    OWNERS << self
+    OWNERS << self.owner
   end
   
   def self.count
